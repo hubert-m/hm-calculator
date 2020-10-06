@@ -16,3 +16,5 @@ https://www.behance.net/gallery/55910657/Calculator-PSD-Freebie
 ```
 https://diadea.com/
 ```
+
+![alt Layout](http://machala.net.pl/demo/calculator/dist/Calculator_Freebie.jpg)
