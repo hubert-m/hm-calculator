@@ -1,0 +1,79 @@
+/* https://creativetacos.com/free-calculator-psd/ */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+header {
+  background-color: #212121;
+  padding: 25px;
+  height: 20%;
+}
+#action {
+  text-align: right;
+  color: #d98092;
+  font-size: 3vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3vh;
+}
+#score {
+  text-align: right;
+  color: #fff;
+  font-size: 8vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buttons {
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  font-size: 5vw;
+  color: #3b3b3b;
+  margin: 0;
+  border: 0;
+}
+.function {
+  background: linear-gradient(90deg, #f7f7f7 0%, #f1f1f1 100%);
+}
+.number {
+  background: rgb(255,255,255);
+  background: linear-gradient(135deg, #ffffff 0%, #f4f4f4 100%);
+}
+#division {
+  background-color: #9156e2;
+  color: #fff;
+}
+#multiplication {
+  background-color: #8d52de;
+  color: #fff;
+}
+#minus {
+  background-color: #894eda;
+  color: #fff;
+}
+#plus {
+  background-color: #8547d8;
+  color: #fff;
+}
+#equals {
+  background-color: #e5298c!important;
+  box-shadow: none!important;
+  color: #fff;
+  grid-column: 3 / 5;
+}
+@media only screen and (max-height: 400px) {
+  header {
+    height: 25%;
+  }
+  .buttons {
+    height: 75%;
+  }
+}
+
